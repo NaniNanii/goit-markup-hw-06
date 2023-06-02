@@ -676,6 +676,10 @@ color: #FFFFFF;
   pointer-events: none;
 }
 
+.input-icon:focus {
+  fill: #2196F3;
+}
+
 .input-icon-x {
   position: absolute;
   top: 50%;
@@ -709,7 +713,6 @@ color: #FFFFFF;
 
 .modal-info:hover {
   cursor: pointer;
-  color: #2196F3;
 }
 
 .modal-info:focus {
